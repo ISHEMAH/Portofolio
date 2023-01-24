@@ -1,0 +1,206 @@
+@font-face {
+    font-family: "catamaran";
+    src: url('./Catamaran/static/Catamaran-Medium.ttf');
+}
+
+.logo{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 60px;
+    position: fixed;
+    top: 10px;
+}
+body{
+    background-color: #0b0b0b;
+    background-image: url('back.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: unset;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    gap: 2em;
+    position: fixed;
+    top:15px;
+    right: 10px;
+}
+
+.active_a{
+    font-family: "catamaran";
+    font-size: large;
+    font-weight: 900;
+    color: #8075FF;
+    text-shadow: 0px 0px 4px #8075FF;
+}
+
+.passive_a{
+    font-family: "catamaran";
+    font-size: medium;
+    color:white;
+    outline: none;
+    text-decoration: none;
+    opacity: 70%;
+}
+.passive_a:hover{
+    opacity: 100%;
+    text-decoration: underline;
+    text-decoration-color: #8075FF;
+}
+
+/* nav .passive_div{
+    width: 70px;
+    height: 50px;
+    border: 3px solid white;
+    align-items: center;
+    padding: auto;
+    justify-content: center;
+/* } */
+/* nav .active_div{
+    width: 70px;
+    height: 50px;
+    border: 3px solid white;
+    align-items: center;
+    padding: auto;
+    justify-content: center;
+} */ 
+
+.profile_photo{
+    width: 30%;
+    opacity: 40%;
+    bottom: 0;
+    padding-top: 50px;
+}
+.profile{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 11, 50, 0.64) 0%, rgba(0, 11, 50, 0.52) 100%);
+    backdrop-filter: blur(7.5px);
+    border-radius: 8px;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    background-color: rgba(0, 0, 0, 0.403);
+    opacity: 70%;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+.info p{
+    font-family: "catamaran";
+    color: white;
+    width: 100%;
+}
+.description{
+    color: #8075FF;
+}
+/* .social-title{
+    width: 100px;
+    padding-bottom: 2em;
+    margin: auto;
+} */
+
+.socials{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding-right: 2em;
+    flex-direction: row;
+    gap: 6%;
+}
+.socials p{
+    width: 10%;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+}
+.socials a{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: "catamaran";
+}
+.socials a img {
+    height: 20px;
+}
+.socials a img:hover{
+    transform: translateY(-4px);
+    transition: 300ms;
+}
+.skills_div{
+
+    background: rgba(0, 0, 0, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    width: 99%;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.professional-skills{
+    width: 50%;
+
+}
+.other-skills{
+    width: 50%;
+
+}
+
+.skills_div h2{
+    color: white;
+    font-family: "catamaran";
+    text-align: center;
+    text-overflow: clip;
+}
+.skills_div p{
+    color: white;
+    opacity:80%;
+    font-family: "catamaran";
+}
+.progress{
+    width: 60%;
+    background: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+
+    height: 20px;
+}
+.progress-fill{
+    height: 100%;
+    background-color: rgb(102, 0, 255);
+    display: flex;
+    border-radius: 20px;
+}
+.progress-fill p {
+    text-align: center;
+    opacity: 100%;
+}
+#progress-fill1{
+    width: 90%;
+    opacity: 20%;
+}
+#progress-fill2{
+    width: 80%;
+    opacity: 20%;
+}
+#progress-fill3{
+    width: 50%;
+    opacity: 20%;
+}
+#progress-fill4{
+    width: 95%;
+    opacity: 20%;
+}
